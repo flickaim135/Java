@@ -10,20 +10,21 @@ public class tut2
     public static void main(String[] args)
         {
             Scanner x = new Scanner(System.in); /* Here, x is an object od Scanner class and System.in means that we are commanding the System to take input. */
-            System.out.print("Enter number 1: ");
+            System.out.print("Enter number 1 (double type): ");
             double a = x.nextDouble();
-            System.out.print("Enter number 2: ");
+            System.out.print("Enter number 2 (int type): ");
             int b = x.nextInt();
-            System.out.print("Enter number 3: ");
+            System.out.print("Enter number 3 (float type): ");
             float c = x.nextFloat();
-            double sum = a+b;
-            double div = a-b*c;
-            System.out.println("Sum of " + a + " and " + b + " is: " + sum);
+            double sum = a+b+c;
+            double div = (a-b)/c;
+            System.out.println("Sum of " + a + " and " + b + " and " + c + " is: " + sum);
+            System.out.println("Div of (a-b)" + " and " + c + " is: " + div);
             
             /* System.out.print("Enter number 4: ");
             boolean d = x.hasNextInt();
             System.out.print(d); */
-
+                
             /* String text = x.next();
             System.out.println(text); */
             String text2 = x.nextLine();
