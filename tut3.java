@@ -21,11 +21,12 @@ public class tut3
         if ((p >= 0 && p <= 100) && (c >= 0 && c <= 100) && (m >= 0 && m <= 100) && (b >= 0 && b <= 100) && (e >= 0 && e <= 100))
         {
             System.out.println("Avg number: " + avg);
-        }else
+        }
+        else
         {
             System.out.println("Error!!");
         }
-
+        
         if (avg >= 0 && avg <= 100)
         {
             if (avg >= 80)
