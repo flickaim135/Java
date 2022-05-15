@@ -4,7 +4,6 @@ public class tut3
 {
     public static void main(String[] args)
     {
-
         System.out.print("Input your Physics number: ");
         Scanner sc = new Scanner(System.in);
         double p = sc.nextDouble();
