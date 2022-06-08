@@ -4,7 +4,7 @@ public class tut3
 {
     public static void main(String[] args)
     {
-        /* =============== Problem 04 ===============
+        /* =============== Problem 04 =============== */
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a number: ");
         int a = sc.nextInt();
@@ -18,7 +18,7 @@ public class tut3
                 sum = sum + i;
             }
         }
-        System.out.print("Sum is: " + sum); */
+        System.out.print("Sum is: " + sum);
 
         /* 123 -> 123, 132, 213, 231, 321, 312 
         
